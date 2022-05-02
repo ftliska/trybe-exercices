@@ -1,1 +1,1 @@
-Repositório para exercícios de projetos do Módulo de Back-End.
+Repositório para exercícios e projetos do Módulo de Backend.
