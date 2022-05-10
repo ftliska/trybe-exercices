@@ -1,0 +1,116 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  padding-top: 90px;
+}
+
+.header-wf-section {
+  position: relative;
+  display: flex;
+  width: 100%;
+  margin-top: 0px;
+  padding: 60px 30px 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  background-color: #fff;
+  text-align: center;
+}
+
+.right-container {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 100%;
+  max-width: 1170px;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  padding: 0px 1em;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  align-self: auto;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+}
+
+.header-content {
+  position: relative;
+  left: auto;
+  right: auto;
+  display: flex;
+  max-width: 660px;
+  clear: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  perspective: 2000px;
+  text-align: right;
+}
+
+.hero-title {
+  overflow: visible;
+  width: auto;
+  margin-top: 0;
+  margin-bottom: 30px;
+  color: #0a7e51;
+  font-size: 45px;
+  line-height: 55px;
+  font-weight: 600;
+  text-align: left;
+  letter-spacing: -1px;
+  text-shadow: none;
+}
+
+.hero-paragraph {
+  position: relative;
+  right: 0px;
+  max-width: 81%;
+  padding: 0px;
+  background-color: transparent;
+  color: #323f3a;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.div-block-6 {
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+}
+
+.w-button {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  padding: 15px 30px;
+  border-radius: 4px;
+  background-color: #11a36a;
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border: 0;
+}
