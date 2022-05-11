@@ -50,3 +50,22 @@ li em {
 .aliados :hover {
   font-weight: 700;
 }
+
+.aliados li a[href="https://pt.stackoverflow.com/"]:hover {
+  color: orange;
+}
+
+.aliados li a[href="https://www.w3schools.com/"]:hover {
+  color: green;
+}
+
+.aliados li a[href="https://devdocs.io/"]:hover {
+  color: yellow;
+}
+
+.aliados li a[href="https://app.betrybe.com/"]:hover {
+  color: green;
+}
+
+
+
