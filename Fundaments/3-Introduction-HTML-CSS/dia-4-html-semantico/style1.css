@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  background-color: rgb(45, 32, 51);
+  font-family: 'Fira code';
+  color: rgb(128, 238, 165);
+}
+
+ul {
+  list-style: none;
+}
+
+header {
+  background-color: rgb(128, 238, 165);
+}
+
+header h1 {
+  margin: 0;
+  padding: 20px;
+  color: rgb(45, 32, 51);
+  font-weight: 700;
+  font-size: 38px;
+}
+
+#navigation {
+  text-align: right;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  box-shadow: 1px 1px 40px rgba(128, 238, 165, 0.473);
+}
+
+#navigation li {
+  display: inline-block;
+  
+}
+
+#navigation a {
+  text-decoration: none;
+  color: rgb(128, 238, 165);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  border: 1px solid rgb(128, 238, 165);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#navigation a:hover {
+  background-color: rgb(128, 238, 165);
+  color: rgb(45, 32, 51);
+}
+
+main {
+  margin: 8px;
+    
+}
+
+#geral {
+  width: 50%;
+  padding-left: 8px;
+  border: 1px solid rgb(128, 238, 165);
+  background-color: rgb(128, 238, 165);
+  color: rgb(45, 32, 51);
+  border-radius: 5px;
+  margin-bottom: 8px;
+  height: auto;
+}
+
+#foto1 {
+  width: 200px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#geral h3,
+#curiosidades h3 {
+  text-decoration:underline;
+  font-size: 22px;
+}
+
+#geral p {
+  padding-right: 8px;
+}
+
+#curiosidades {
+  width: 50%;
+  padding-left: 8px;
+  border: 1px solid rgb(128, 238, 165);
+  background-color: rgb(128, 238, 165);
+  color: rgb(45, 32, 51);
+  border-radius: 5px;
+  margin-bottom: 8px;
+  height: auto;
+}
+
+#foto2 {
+  width: 250px;
+  float: right;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#referencias {
+  width: 50%;
+  padding-left: 8px;
+  border: 1px solid rgb(128, 238, 165);
+  background-color: rgb(128, 238, 165);
+  color: rgb(45, 32, 51);
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+

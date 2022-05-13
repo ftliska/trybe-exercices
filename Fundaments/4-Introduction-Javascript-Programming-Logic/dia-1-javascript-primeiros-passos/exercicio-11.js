@@ -26,6 +26,8 @@ if (salarioBase < 1903.98) {
   impostoDeRenda = (salarioBase * 27.5) / 100 - 869.36
 }
 
+
+
 const salarioLiquido = salarioBase - impostoDeRenda
 
 console.log(salarioLiquido)
