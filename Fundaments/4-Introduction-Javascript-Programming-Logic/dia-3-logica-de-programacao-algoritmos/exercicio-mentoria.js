@@ -31,7 +31,7 @@ let string = ''
 
 for(let index = 1; index < 50; index += 1){
   if (index % 2 == 1){
-  string = string + ', ' + index
+  string = string + index + ', ' 
 } 
 } 
 console.log(string);
