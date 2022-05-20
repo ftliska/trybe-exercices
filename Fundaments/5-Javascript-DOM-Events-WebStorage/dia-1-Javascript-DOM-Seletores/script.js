@@ -26,4 +26,13 @@ function changeColor() {
 }
 changeColor();
 
+// Crie uma função que mude a cor do quadrado vermelho para branco.
+
+function changeColorWhite() {
+  let changeColor = document.getElementById('branco').style.backgroundColor = 'white';
+
+  return changeColor;
+}
+changeColorWhite();
+
 
