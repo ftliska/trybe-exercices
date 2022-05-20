@@ -41,6 +41,17 @@ function titleCorrection() {
 }
 titleCorrection();
 
+//  Crie uma função que modifique todo o texto da tag <p> para maiúsculo.
+
+function toUpperCaseParagraph() {
+  let upperCasePar = document.getElementsByClassName('center-content')[0];
+  upperCasePar.innerHTML = upperCasePar.innerHTML.toUpperCase();
+
+  return upperCasePar;
+}
+toUpperCaseParagraph();
+
+
 
 
 
