@@ -51,7 +51,15 @@ function toUpperCaseParagraph() {
 }
 toUpperCaseParagraph();
 
+//  Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
+function showAllTagsP() {
+  let paragraphs = document.getElementsByTagName('p');
+  for (let i = 0; i < paragraphs.length; i += 1) {
+    console.log(paragraphs[i].innerText);
+  }
+}
+showAllTagsP();
 
 
 
