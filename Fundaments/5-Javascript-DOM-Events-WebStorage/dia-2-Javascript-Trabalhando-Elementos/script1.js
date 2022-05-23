@@ -70,4 +70,15 @@ title.className = 'title';
 
 m.removeChild(secLeft);
 
+//Centralize a section criado no passo 6 (aquele que possui a classe right-content). Dica: para centralizar, basta configurar o margin-right: auto da section;
 
+secRig.style.marginRight = 'auto';
+
+//Troque a cor de fundo do elemento pai da section criada no passo 3 (aquela que possui a classe center-content) para a cor verde;
+
+sec.parentElement.style.backgroundColor = 'green';
+
+//Remova os dois últimos elementos (nove e dez) da lista criada no passo 8.
+
+list.lastChild.remove();
+list.lastChild.remove();
