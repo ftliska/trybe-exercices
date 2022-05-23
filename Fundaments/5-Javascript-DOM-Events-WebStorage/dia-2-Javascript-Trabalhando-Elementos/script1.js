@@ -50,3 +50,10 @@ for (let index = 0; index < arrayString.length; index += 1) {
   itemList.innerText = arrayString[index];
   list.appendChild(itemList);
 }
+
+//Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
+
+for (let index = 0; index < 3; index += 1) {
+  let subTitle = document.createElement('h3');
+  m.appendChild(subTitle);
+}
