@@ -3,3 +3,8 @@ let title = document.createElement('h1')
 title.innerText = 'Exercício 5.2 - JavaScript DOM'
 document.body.appendChild(title)
 
+//Adicione a tag main com a classe main-content como filho da tag body;
+let m = document.createElement('main')
+m.className = 'main-content'
+document.body.appendChild(m)
+
