@@ -55,5 +55,19 @@ for (let index = 0; index < arrayString.length; index += 1) {
 
 for (let index = 0; index < 3; index += 1) {
   let subTitle = document.createElement('h3');
+  subTitle.className = 'description';
   m.appendChild(subTitle);
 }
+
+//Adicione a classe title na tag h1 criada;
+
+title.className = 'title';
+
+//Adicione a classe description nas 3 tags h3 criadas;
+// Colocado no loop for no passo 9
+
+// Remova a section criado no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
+
+m.removeChild(secLeft);
+
+
