@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header-trybe">
+      <img id="trybe-logo" src="/Mentoria - Formulario Hotel/55410300.png" alt="" />
+      <h1>Hotel Trybe</h1>
+    </header>
+    <main class="form-content">
+      <form action="">
+        <section class="hotel-form">
+          <h2>Reserve seu quarto!</h2>
+          <label for="inputCheckin"
+            >Check-in: <input type="date" class="inputCheckin" required autofocus
+          /></label>
+          <label for="inputCheckout"
+            >Check-out: <input type="date" class="inputCheckout" required
+          /></label>
+        </section>
+        <section class="hotel-form">
+          <fieldset class="field">
+            <legend>Quartos:</legend>
+            <label for="comum"
+              ><input
+                type="radio"
+                name="quarto"
+                id="comum"
+                class="bedroom"
+                value="comum"
+              /> Comum</label
+            >
+            <label for="club"
+              ><input
+                type="radio"
+                name="quarto"
+                id="club"
+                class="bedroom"
+                value="club"
+              /> Club</label
+            >
+            <label for="luxo"
+              ><input
+                type="radio"
+                name="quarto"
+                id="luxo"
+                class="bedroom"
+                value="luxo"
+              /> Luxo</label
+            >
+          </fieldset>
+        </section>
+        <section class="hotel-form">
+          <label for="nPessoas">Número de pessoas</label>
+          <select name="select" class="nPessoas">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </section>
+        <section class="hotel-form">
+          <textarea
+            name=""
+            id=""
+            placeholder="Observações"
+            class="obs"
+          ></textarea>
+        </section>
+        <input type="button" id="submit-btn" value="Reservar">
+      </form>
+      <section class="list-section">
+        <h2>Lista de Reservas</h2>
+        <ol id="reserv-list">
+          <li class="list">Reserva para o dia 2022-06-23 até o dia 2022-06-15 Quarto comum Para 4 pessoas Obs.: </li>
+        </ol>
+        <button type="reset" id="clear-btn">Limpar</button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

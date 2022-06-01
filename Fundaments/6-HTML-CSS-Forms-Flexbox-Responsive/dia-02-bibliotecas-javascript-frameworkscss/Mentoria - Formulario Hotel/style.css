@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: DM Sans, sans-serif;
+  color: rgb(46, 46, 46);
+  background-color: rgb(245, 255, 251);
+}
+
+#trybe-logo {
+  border-radius: 25%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.form-content {
+  text-align: center;
+  width: 60%;
+  margin: auto;
+  background-color: rgb(221, 238, 231);
+  border: 1px solid rgb(189, 201, 196);
+  border-radius: 5px;
+}
+
+.header-trybe {
+  text-align: center;
+  border-bottom: 1px solid rgb(189, 201, 196);
+  margin-bottom: 40px;
+  background-color: rgb(221, 238, 231);
+  color: rgb(46, 46, 46);
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.header-trybe h1 {
+  margin-bottom: 40px;
+}
+
+.hotel-form h2 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.hotel-form {
+  margin-bottom: 40px;
+}
+
+.field {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10%;
+  padding: 5px;
+  width: 50%;
+  border-color: rgb(220, 255, 240);
+  outline: none;
+}
+
+.obs {
+  resize: none;
+  width: 50%;
+  height: 100px;
+  border-color: rgb(189, 201, 196);
+  padding: 10px;
+}
+
+#submit-btn {
+  margin-bottom: 40px;
+}
+
+.list-section h2 {
+  margin-bottom: 40px;
+}
+
+#reserv-list {
+  margin-bottom: 40px;
+}
+
+#clear-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(154, 212, 188);
+  color: rgb(80, 80, 80);
+  
+  font-weight: 550;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+
+  cursor: pointer;
+}
+
+#submit-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 25px;
+  background-color: rgb(154, 212, 188);
+  color: rgb(80, 80, 80);
+
+  font-weight: 550;
+  text-transform: uppercase;
+  text-decoration: none;
+  outline: none;
+  letter-spacing: 1px;
+  margin-bottom: 40px;
+
+  cursor: pointer;
+}
+
+.list {
+  margin: auto;
+  max-width: 80%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border-bottom: 2px solid rgb(189, 201, 196);
+
+  font-size: 18px;
+}
