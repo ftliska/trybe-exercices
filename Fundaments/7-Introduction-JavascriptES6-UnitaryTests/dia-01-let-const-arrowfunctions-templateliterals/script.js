@@ -1,3 +1,4 @@
+// Parte 1
 // Exercício 1
 
 const testingScope = (escopo) => {
@@ -33,3 +34,21 @@ const compararNumeros = (a, b) => a - b;
 
 oddsAndEvens.sort(compararNumeros);
 console.log(oddsAndEvens);
+
+// Parte 2
+// Exercício 1
+
+const factorial1 = (n) => {
+  let result = 1;
+
+  for (let i = 2; i <= n; i += 1) {
+    result *= i;
+  }
+  return result;
+}
+
+console.log(factorial1(5));
+
+const factorial = n => n > 1 ? n * factorial(n - 1) : 1;
+console.log(factorial(4));
+
