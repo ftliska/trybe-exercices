@@ -52,3 +52,21 @@ console.log(factorial1(5));
 const factorial = n => n > 1 ? n * factorial(n - 1) : 1;
 console.log(factorial(4));
 
+// Parte 3
+// Exercício 2
+
+const getLongestWord = (phrase) => {
+  let wordsArray = phrase.split(' ');
+  let maxLength = 0;
+  let result = '';
+
+  for (let biggest of wordsArray) {
+    if (biggest.length > maxLength) {
+      maxLength = biggest.length;
+      result = biggest;
+    }
+  }
+  return result;
+}
+console.log(getLongestWord('eu queria ser uma abelha pra pousar na sua flor'));
+
