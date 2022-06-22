@@ -56,17 +56,17 @@ console.log(factorial(4))
 // Exercício 2
 
 const getLongestWord = phrase => {
-  let wordsArray = phrase.split(' ')
-  let maxLength = 0
-  let result = ''
+  let wordsArray = phrase.split(' ');
+  let maxLength = 0;
+  let result = '';
 
   for (let biggest of wordsArray) {
     if (biggest.length > maxLength) {
-      maxLength = biggest.length
-      result = biggest
+      maxLength = biggest.length;
+      result = biggest;
     }
   }
-  return result
+  return result;
 }
 console.log(
   getLongestWord(
@@ -74,7 +74,7 @@ console.log(
   )
 )
 
-// Parte 3
+// Parte 2
 // Exercício 3
 
 const btn = document.querySelector('#btn')
@@ -86,3 +86,50 @@ btn.addEventListener('click', () => {
   count += 1;
   counter.innerText = count;
 })
+
+// Parte 2
+// Exercício 4
+
+const changeX = (str) => {
+  const param = 'ameno';
+  let letter = '';
+  for (let i = 0; i < str.length; i += 1) {
+    letter = str[i];
+    if (letter === 'x') {
+      letter = param;
+    }
+  }
+  console.log(letter);
+  return letter;
+}
+changeX('xuxu xaxá');
+
+
+const array = ["Android", "iOS", "Architecture", "Teach", "Run"];
+
+function buildSkillsPhrase (paramOne) {
+    const fun1 = paramInner => (
+      `Tryber ${paramInner} aqui!
+
+      Tudo bem?`
+    );
+
+    let result = `${fun1(paramOne)}
+
+    Minhas cinco principais habilidades são:`;
+
+    array.forEach((skill, index) =>
+    result = `${result}
+
+    - ${skill}`);
+
+    result = `
+    ${result}
+
+    #goTrybe
+    `;
+
+    return result;
+}
+
+console.log(buildSkillsPhrase("Lucas"));
