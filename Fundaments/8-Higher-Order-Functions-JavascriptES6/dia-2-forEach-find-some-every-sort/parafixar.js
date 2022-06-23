@@ -24,6 +24,11 @@ const findDivisibleBy3And5 = () => {
 
 console.log(findDivisibleBy3And5()); 
 
+// 3 - Utilize o find para encontrar o primeiro nome com cinco letras, caso ele exista:
 
+const names = ['João', 'Iranilda', 'Fernando', 'Maria'];
 
+const findNameWithFiveLetters = () => names.find((name) => name.length === 5);
+
+console.log(findNameWithFiveLetters()); 
 
