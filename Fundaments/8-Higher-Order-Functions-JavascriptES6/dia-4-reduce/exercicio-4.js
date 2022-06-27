@@ -61,12 +61,17 @@ const books = [
   },
 ];
 
-// 2 - Crie uma string com os nomes de todas as pessoas autoras.
+// 4- Encontre o livro com o maior nome.
 
-const reduceNames = (livros) => {
-  const names = livros.reduce((acc, book) => {
-    return `${acc} ${book.author.name},`
-  }, '');
-  return names.trim();
+const longestNamedBook = (books) => {
+  const longestBook = books.reduce((acc, book) => {
+    if (book.name.length > acc.name.length){
+      return book;
+    } else {
+      return acc;
+    }
+  }) 
+  return longestBook;
 }
-console.log(reduceNames(books)); 
+
+console.log(longestNamedBook(books));
